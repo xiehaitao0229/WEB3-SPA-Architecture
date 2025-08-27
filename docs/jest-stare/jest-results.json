@@ -1,0 +1,294 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 3,
+  "numPassedTests": 9,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 3,
+  "numTotalTests": 9,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1756279877079,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 7,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1756279877413,
+        "loadTestEnvironmentEnd": 1756279877193,
+        "loadTestEnvironmentStart": 1756279877138,
+        "runtime": 218,
+        "setupAfterEnvEnd": 1756279877351,
+        "setupAfterEnvStart": 1756279877351,
+        "setupFilesEnd": 1756279877195,
+        "setupFilesStart": 1756279877195,
+        "slow": false,
+        "start": 1756279877195
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/xiehaitao/Desktop/web3-33期学习资料/web3-architecture/tests/unit/address.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "formatAddress",
+            "valid addresses"
+          ],
+          "duration": 3,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "formatAddress valid addresses should format address with default chars (3)",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "startAt": 1756279877364,
+          "status": "passed",
+          "title": "should format address with default chars (3)"
+        },
+        {
+          "ancestorTitles": [
+            "formatAddress",
+            "valid addresses"
+          ],
+          "duration": 0,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "formatAddress valid addresses should format address with custom chars length",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "startAt": 1756279877368,
+          "status": "passed",
+          "title": "should format address with custom chars length"
+        },
+        {
+          "ancestorTitles": [
+            "formatAddress",
+            "valid addresses"
+          ],
+          "duration": 0,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "formatAddress valid addresses should handle minimum chars value of 1",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "startAt": 1756279877369,
+          "status": "passed",
+          "title": "should handle minimum chars value of 1"
+        },
+        {
+          "ancestorTitles": [
+            "formatAddress",
+            "error handling"
+          ],
+          "duration": 38,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "formatAddress error handling should throw AddressFormatError for non-string input",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 3,
+          "retryReasons": [],
+          "startAt": 1756279877369,
+          "status": "passed",
+          "title": "should throw AddressFormatError for non-string input"
+        },
+        {
+          "ancestorTitles": [
+            "formatAddress",
+            "error handling"
+          ],
+          "duration": 1,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "formatAddress error handling should throw AddressFormatError for address not starting with 0x",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "startAt": 1756279877407,
+          "status": "passed",
+          "title": "should throw AddressFormatError for address not starting with 0x"
+        },
+        {
+          "ancestorTitles": [
+            "formatAddress",
+            "error handling"
+          ],
+          "duration": 2,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "formatAddress error handling should throw AddressFormatError for invalid address length",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "startAt": 1756279877408,
+          "status": "passed",
+          "title": "should throw AddressFormatError for invalid address length"
+        },
+        {
+          "ancestorTitles": [
+            "formatAddress",
+            "error handling"
+          ],
+          "duration": 1,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "formatAddress error handling should throw AddressFormatError for invalid hex characters",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "startAt": 1756279877410,
+          "status": "passed",
+          "title": "should throw AddressFormatError for invalid hex characters"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1756279877571,
+        "loadTestEnvironmentEnd": 1756279877458,
+        "loadTestEnvironmentStart": 1756279877454,
+        "runtime": 113,
+        "setupAfterEnvEnd": 1756279877564,
+        "setupAfterEnvStart": 1756279877564,
+        "setupFilesEnd": 1756279877458,
+        "setupFilesStart": 1756279877458,
+        "slow": false,
+        "start": 1756279877458
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/xiehaitao/Desktop/web3-33期学习资料/web3-architecture/tests/unit/index.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "综合性的测试"
+          ],
+          "duration": 4,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "综合性的测试 简单的测试",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "startAt": 1756279877566,
+          "status": "passed",
+          "title": "简单的测试"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1756279877798,
+        "loadTestEnvironmentEnd": 1756279877613,
+        "loadTestEnvironmentStart": 1756279877609,
+        "runtime": 185,
+        "setupAfterEnvEnd": 1756279877786,
+        "setupAfterEnvStart": 1756279877786,
+        "setupFilesEnd": 1756279877613,
+        "setupFilesStart": 1756279877613,
+        "slow": false,
+        "start": 1756279877613
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/xiehaitao/Desktop/web3-33期学习资料/web3-architecture/tests/unit/sum.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [],
+          "duration": 3,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "adds 1 + 2 to equal 3",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "startAt": 1756279877794,
+          "status": "passed",
+          "title": "adds 1 + 2 to equal 3"
+        }
+      ],
+      "failureMessage": null
+    }
+  ],
+  "wasInterrupted": false
+}

@@ -1,0 +1,24 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript", // 或 "ecmascript"
+      "tsx": true,           // 支持 JSX
+      "decorators": true     // 支持装饰器
+    },
+    "transform": {
+      "react": {
+        "runtime": "automatic", // React 17+ 新的 JSX 转换
+        "pragma": "React.createElement", // 自定义 JSX pragma
+        "pragmaFrag": "React.Fragment"
+      }
+    },
+    "target": "es2018",      // 目标 ES 版本
+    "loose": false,          // 宽松模式
+    "externalHelpers": false // 是否使用外部帮助函数
+  },
+  "module": {
+    "type": "es6"           // 或 "commonjs"
+  },
+  "minify": false,          // 是否压缩
+  "sourceMaps": true        // 是否生成 source map
+}
