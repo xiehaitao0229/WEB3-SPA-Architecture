@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1756279877079,
+  "startTime": 1756299132420,
   "success": false,
   "testResults": [
     {
@@ -37,16 +37,16 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1756279877413,
-        "loadTestEnvironmentEnd": 1756279877193,
-        "loadTestEnvironmentStart": 1756279877138,
-        "runtime": 218,
-        "setupAfterEnvEnd": 1756279877351,
-        "setupAfterEnvStart": 1756279877351,
-        "setupFilesEnd": 1756279877195,
-        "setupFilesStart": 1756279877195,
+        "end": 1756299132840,
+        "loadTestEnvironmentEnd": 1756299132582,
+        "loadTestEnvironmentStart": 1756299132505,
+        "runtime": 257,
+        "setupAfterEnvEnd": 1756299132762,
+        "setupAfterEnvStart": 1756299132762,
+        "setupFilesEnd": 1756299132583,
+        "setupFilesStart": 1756299132583,
         "slow": false,
-        "start": 1756279877195
+        "start": 1756299132583
       },
       "skipped": false,
       "snapshot": {
@@ -74,7 +74,7 @@
           "location": null,
           "numPassingAsserts": 1,
           "retryReasons": [],
-          "startAt": 1756279877364,
+          "startAt": 1756299132776,
           "status": "passed",
           "title": "should format address with default chars (3)"
         },
@@ -83,7 +83,7 @@
             "formatAddress",
             "valid addresses"
           ],
-          "duration": 0,
+          "duration": 1,
           "failing": false,
           "failureDetails": [],
           "failureMessages": [],
@@ -92,7 +92,7 @@
           "location": null,
           "numPassingAsserts": 2,
           "retryReasons": [],
-          "startAt": 1756279877368,
+          "startAt": 1756299132780,
           "status": "passed",
           "title": "should format address with custom chars length"
         },
@@ -110,7 +110,7 @@
           "location": null,
           "numPassingAsserts": 1,
           "retryReasons": [],
-          "startAt": 1756279877369,
+          "startAt": 1756299132782,
           "status": "passed",
           "title": "should handle minimum chars value of 1"
         },
@@ -119,7 +119,7 @@
             "formatAddress",
             "error handling"
           ],
-          "duration": 38,
+          "duration": 48,
           "failing": false,
           "failureDetails": [],
           "failureMessages": [],
@@ -128,7 +128,7 @@
           "location": null,
           "numPassingAsserts": 3,
           "retryReasons": [],
-          "startAt": 1756279877369,
+          "startAt": 1756299132783,
           "status": "passed",
           "title": "should throw AddressFormatError for non-string input"
         },
@@ -146,7 +146,7 @@
           "location": null,
           "numPassingAsserts": 1,
           "retryReasons": [],
-          "startAt": 1756279877407,
+          "startAt": 1756299132831,
           "status": "passed",
           "title": "should throw AddressFormatError for address not starting with 0x"
         },
@@ -155,7 +155,7 @@
             "formatAddress",
             "error handling"
           ],
-          "duration": 2,
+          "duration": 3,
           "failing": false,
           "failureDetails": [],
           "failureMessages": [],
@@ -164,7 +164,7 @@
           "location": null,
           "numPassingAsserts": 2,
           "retryReasons": [],
-          "startAt": 1756279877408,
+          "startAt": 1756299132833,
           "status": "passed",
           "title": "should throw AddressFormatError for invalid address length"
         },
@@ -182,7 +182,7 @@
           "location": null,
           "numPassingAsserts": 1,
           "retryReasons": [],
-          "startAt": 1756279877410,
+          "startAt": 1756299132838,
           "status": "passed",
           "title": "should throw AddressFormatError for invalid hex characters"
         }
@@ -197,16 +197,16 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1756279877571,
-        "loadTestEnvironmentEnd": 1756279877458,
-        "loadTestEnvironmentStart": 1756279877454,
-        "runtime": 113,
-        "setupAfterEnvEnd": 1756279877564,
-        "setupAfterEnvStart": 1756279877564,
-        "setupFilesEnd": 1756279877458,
-        "setupFilesStart": 1756279877458,
+        "end": 1756299133013,
+        "loadTestEnvironmentEnd": 1756299132879,
+        "loadTestEnvironmentStart": 1756299132874,
+        "runtime": 134,
+        "setupAfterEnvEnd": 1756299132998,
+        "setupAfterEnvStart": 1756299132998,
+        "setupFilesEnd": 1756299132879,
+        "setupFilesStart": 1756299132879,
         "slow": false,
-        "start": 1756279877458
+        "start": 1756299132879
       },
       "skipped": false,
       "snapshot": {
@@ -224,7 +224,7 @@
           "ancestorTitles": [
             "综合性的测试"
           ],
-          "duration": 4,
+          "duration": 2,
           "failing": false,
           "failureDetails": [],
           "failureMessages": [],
@@ -233,7 +233,7 @@
           "location": null,
           "numPassingAsserts": 1,
           "retryReasons": [],
-          "startAt": 1756279877566,
+          "startAt": 1756299133010,
           "status": "passed",
           "title": "简单的测试"
         }
@@ -248,16 +248,16 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1756279877798,
-        "loadTestEnvironmentEnd": 1756279877613,
-        "loadTestEnvironmentStart": 1756279877609,
-        "runtime": 185,
-        "setupAfterEnvEnd": 1756279877786,
-        "setupAfterEnvStart": 1756279877786,
-        "setupFilesEnd": 1756279877613,
-        "setupFilesStart": 1756279877613,
+        "end": 1756299133190,
+        "loadTestEnvironmentEnd": 1756299133056,
+        "loadTestEnvironmentStart": 1756299133040,
+        "runtime": 133,
+        "setupAfterEnvEnd": 1756299133179,
+        "setupAfterEnvStart": 1756299133179,
+        "setupFilesEnd": 1756299133057,
+        "setupFilesStart": 1756299133057,
         "slow": false,
-        "start": 1756279877613
+        "start": 1756299133057
       },
       "skipped": false,
       "snapshot": {
@@ -273,7 +273,7 @@
       "testResults": [
         {
           "ancestorTitles": [],
-          "duration": 3,
+          "duration": 2,
           "failing": false,
           "failureDetails": [],
           "failureMessages": [],
@@ -282,7 +282,7 @@
           "location": null,
           "numPassingAsserts": 2,
           "retryReasons": [],
-          "startAt": 1756279877794,
+          "startAt": 1756299133186,
           "status": "passed",
           "title": "adds 1 + 2 to equal 3"
         }
