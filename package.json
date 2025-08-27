@@ -7,8 +7,6 @@
     "start": "webpack serve --mode development",
     "build:prod": "webpack --mode production",
     "build:deploy": "node scripts/deploy.js",
-    "deploy": "npm run build:deploy && wrangler pages deploy dist",
-    "deploy:preview": "npm run build:deploy && wrangler pages deploy dist --compatibility-date=2024-01-15",
     "test": "jest --collectCoverage",
     "lint:fix": "tsc --noEmit & eslint ./src --ext .ts,.tsx --fix",
     "lint": "eslint ./src --ext .ts,.tsx",
