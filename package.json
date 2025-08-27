@@ -6,7 +6,7 @@
     "build:dev": "webpack --mode development",
     "start": "webpack serve --mode development",
     "build:prod": "webpack --mode production",
-    "build:deploy": "node scripts/deploy.js",
+    "deploy": "node scripts/deploy.js",
     "test": "jest --collectCoverage",
     "lint:fix": "tsc --noEmit & eslint ./src --ext .ts,.tsx --fix",
     "lint": "eslint ./src --ext .ts,.tsx",
